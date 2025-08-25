@@ -69,7 +69,7 @@ This project is my attempt to finally answer it with data. By scraping and analy
 
 ---
 
-## Results (Figures to Add)
+## Results
 - **Sentiment Totals by Sign (3 years)**  
 - **Word Clouds**: Positive vs. Negative, per sign  
 - **Time Series**: Rolling positivity and negativity per sign  
@@ -106,4 +106,31 @@ For **Capricorn** and **Leo** I tracked positivity/negativity over time compared
 
 ---
 
-## Reproducibility & Project Structure
+## Limitations
+- Sentiment models may misclassify horoscope-style language.  
+- Results reflect **one website’s editorial choices**, not astrology in general.  
+- Horoscopes are short → small text changes can flip sentiment.  
+- This project is **descriptive**, not causal.  
+
+---
+
+## Future Work
+- Scrape multiple sources for comparison.  
+- Use domain-adapted sentiment models.  
+- Apply **topic modeling** to detect recurring themes.  
+- Build an **interactive dashboard** (e.g., Streamlit) to explore trends by sign/date.  
+
+---
+
+## Skills Demonstrated
+- **Web scraping & automation**  
+- **NLP preprocessing** (cleaning, tokenization, lemmatization)  
+- **Sentiment analysis** with **VADER** + **Hugging Face transformers**  
+- **Semantic similarity** with **MiniLM embeddings + cosine similarity**  
+- **Statistical testing** (chi-square, post-hoc, bootstrapping)  
+- **Visualization** (word clouds, timelines, bar plots)  
+- **Reproducible project design** (modular, config-driven)  
+- **Data storytelling** for both technical and non-technical audiences  
+
+---
+
