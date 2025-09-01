@@ -75,7 +75,10 @@ This project is my attempt to finally answer it with data. By scraping and analy
 - **Time Series**: Rolling positivity and negativity per sign
   
   ![Horoscope-Sentiment-and-Similarity-Study](img/leo_monthly_sentiment.png)
-  
+  <p>
+  <img src="img/leo_monthly_sentiment.png" width="48%">
+  <img src="img/leo_monthly_sentiment.png" width="48%">
+</p>
 - **Capricorn & Leo Comparisons**: Positivity/negativity vs. others  
 - **Similarity Heatmaps**: Reuse of past horoscopes
 
