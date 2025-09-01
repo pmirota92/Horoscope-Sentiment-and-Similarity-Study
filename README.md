@@ -72,7 +72,10 @@ This project is my attempt to finally answer it with data. By scraping and analy
 ## Results
 - **Sentiment Totals by Sign (3 years)**  
 - **Word Clouds**: Positive vs. Negative, per sign  
-- **Time Series**: Rolling positivity and negativity per sign  
+- **Time Series**: Rolling positivity and negativity per sign
+  
+  ![Horoscope-Sentiment-and-Similarity-Study](img/leo_monthly_sentiment.png)
+  
 - **Capricorn & Leo Comparisons**: Positivity/negativity vs. others  
 - **Similarity Heatmaps**: Reuse of past horoscopes
 
