@@ -116,7 +116,11 @@ This project is my attempt to finally answer it with data. By scraping and analy
   <img src="img/aries_monthly_sentiment.png" width="48%">
 </p>
 
-- **Capricorn & Leo Comparisons**: Positivity/negativity vs. others  
+- **Capricorn & Leo Comparisons**: Positivity/negativity vs. others
+  
+  ![Horoscope-Sentiment-and-Similarity-Study](img/leo_monthly_sentiment.png)
+  ![Horoscope-Sentiment-and-Similarity-Study](img/contingency_tbl.png)
+  
 - **Similarity Heatmaps**: Reuse of past horoscopes
 
 **Headline findings:**  
@@ -138,8 +142,13 @@ For **Capricorn** and **Leo** I tracked positivity/negativity over time compared
 ## Statistical Testing
 - **Chi-square tests** → confirmed significant differences across signs.  
 - **Post-hoc analysis** → identified **two outlier signs** driving the negativity effect.  
-- **Bootstrapping** → computed confidence intervals for per-sign negativity rates.  
+- **Bootstrapping** → computed confidence intervals for per-sign negativity rates.
+  
+  A chi-square (χ²) test across all zodiac signs shows significant differences in the distribution of negative horoscopes between groups.
+![Horoscope-Sentiment-and-Similarity-Study](img/contingency_tbl.png)
 
+After removing two outlier signs, a chi-square test shows no significant differences in the distribution of negative horoscopes across groups.
+![Horoscope-Sentiment-and-Similarity-Study](img/contingency_tbl_after_changes.png)
 ---
 
 ## Similarity Analysis
