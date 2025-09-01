@@ -72,7 +72,7 @@ This project is my attempt to finally answer it with data. By scraping and analy
 ## Results
 - **Sentiment Totals by Sign (3 years)**  
 - **Word Clouds**: Positive vs. Negative, per sign
-    <p>
+<p>
   <img src="img/leo_wordclouds.png" width="48%">
   <img src="img/Gemini_wordclouds.png" width="48%">
 </p>
@@ -95,7 +95,7 @@ This project is my attempt to finally answer it with data. By scraping and analy
 
 - **Time Series**: Rolling positivity and negativity per sign
 
-  <p>
+<p>
   <img src="img/leo_monthly_sentiment.png" width="48%">
   <img src="img/gemini_monthly_sentiment.png" width="48%">
 </p>
@@ -115,10 +115,6 @@ This project is my attempt to finally answer it with data. By scraping and analy
   <img src="img/cancer_monthly_sentiment.png" width="48%">
   <img src="img/aries_monthly_sentiment.png" width="48%">
 </p>
-
-- **Capricorn & Leo Comparisons**: Positivity/negativity vs. others
-  
-  ![Horoscope-Sentiment-and-Similarity-Study](img/leo_monthly_sentiment.png)
   
 - **Similarity Heatmaps**: Reuse of past horoscopes
 
@@ -135,7 +131,14 @@ For **Capricorn** and **Leo** I tracked positivity/negativity over time compared
 - Showed when they were more/less positive than average.  
 - Revealed periods of unusual negativity.  
 - Illustrated how individual signs trend against the overall baseline.
-
+<p>
+  <img src="img/capricorn_vs_other_signs_positive.png" width="48%">
+  <img src="img/leo_vs_other_signs_positive.png" width="48%">
+</p>
+  <p>
+  <img src="img/capricorn_vs_other_signs_negative.png" width="48%">
+  <img src="img/leo_vs_other_signs_negative.png" width="48%">
+</p>
 ---
 
 ## Statistical Testing
