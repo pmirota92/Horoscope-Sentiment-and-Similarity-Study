@@ -71,14 +71,51 @@ This project is my attempt to finally answer it with data. By scraping and analy
 
 ## Results
 - **Sentiment Totals by Sign (3 years)**  
-- **Word Clouds**: Positive vs. Negative, per sign  
+- **Word Clouds**: Positive vs. Negative, per sign
+    <p>
+  <img src="img/leo_wordclouds.png" width="48%">
+  <img src="img/Gemini_wordclouds.png" width="48%">
+</p>
+  <p>
+  <img src="img/virgo_wordclouds.png" width="48%">
+  <img src="img/Taurus_wordclouds.png" width="48%">
+</p>
+  <p>
+  <img src="img/Scorpio_wordclouds.png" width="48%">
+  <img src="img/Sagittarius_wordclouds.png" width="48%">
+</p>
+  <p>
+  <img src="img/Pisces_wordclouds.png" width="48%">
+  <img src="img/Libra_wordclouds.png" width="48%">
+</p>
+  <p>
+  <img src="img/Cancer_wordclouds.png" width="48%">
+  <img src="img/Aries_wordclouds.png" width="48%">
+</p>
+
 - **Time Series**: Rolling positivity and negativity per sign
-  
-  ![Horoscope-Sentiment-and-Similarity-Study](img/leo_monthly_sentiment.png)
+
   <p>
   <img src="img/leo_monthly_sentiment.png" width="48%">
-  <img src="img/leo_monthly_sentiment.png" width="48%">
+  <img src="img/gemini_monthly_sentiment.png" width="48%">
 </p>
+  <p>
+  <img src="img/virgo_monthly_sentiment.png" width="48%">
+  <img src="img/taurus_monthly_sentiment.png" width="48%">
+</p>
+  <p>
+  <img src="img/scorpio_monthly_sentiment.png" width="48%">
+  <img src="img/sagittarius_monthly_sentiment.png" width="48%">
+</p>
+  <p>
+  <img src="img/pisces_monthly_sentiment.png" width="48%">
+  <img src="img/libra_monthly_sentiment.png" width="48%">
+</p>
+  <p>
+  <img src="img/cancer_monthly_sentiment.png" width="48%">
+  <img src="img/aries_monthly_sentiment.png" width="48%">
+</p>
+
 - **Capricorn & Leo Comparisons**: Positivity/negativity vs. others  
 - **Similarity Heatmaps**: Reuse of past horoscopes
 
