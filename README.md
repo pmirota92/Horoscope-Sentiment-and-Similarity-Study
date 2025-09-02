@@ -70,7 +70,10 @@ This project is my attempt to finally answer it with data. By scraping and analy
 ---
 
 ## Results
-- **Sentiment Totals by Sign (3 years)**  
+- **Sentiment Totals by Sign (3 years)**
+  
+![Horoscope-Sentiment-and-Similarity-Study](img/all_monthly_sentiment.png)
+
 - **Word Clouds**: Positive vs. Negative, per sign
      - Whether the comments are positive or negative, **work** stands out as the central theme.
 <p>
@@ -160,6 +163,10 @@ After removing two outlier signs, a chi-square test shows no significant differe
 - **Embeddings:** Generated with **paraphrase-multilingual-MiniLM-L12-v2** (Sentence Transformers).  
 - **Cosine similarity:** Compared each horoscope with all previous ones for the same sign.  
 - **Result:** Strong likelihood (>70%) that a horoscope closely resembles at least one earlier text → suggests templated or recycled writing.
+
+![Horoscope-Sentiment-and-Similarity-Study](img/Top3_similar_pairs.png)
+
+![Horoscope-Sentiment-and-Similarity-Study](img/Top5_similar.png)
 
 ---
 
