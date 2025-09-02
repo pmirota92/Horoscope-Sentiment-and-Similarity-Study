@@ -72,6 +72,7 @@ This project is my attempt to finally answer it with data. By scraping and analy
 ## Results
 - **Sentiment Totals by Sign (3 years)**  
 - **Word Clouds**: Positive vs. Negative, per sign
+     - Whether the comments are positive or negative, **work** stands out as the central theme.
 <p>
   <img src="img/leo_wordclouds.png" width="48%">
   <img src="img/Gemini_wordclouds.png" width="48%">
